@@ -1,6 +1,11 @@
 [package]
 name = "oauth2_traits_macros"
 version = "0.1.0"
+
 authors = ["Louis Capitanchik <contact@louiscap.co>"]
+homepage = "https://github.com/commander-lol/rust-oauth2-traits"
+repository = "https://github.com/commander-lol/rust-oauth2-traits"
+
+license = "Apache-2.0"
 
 [dependencies]

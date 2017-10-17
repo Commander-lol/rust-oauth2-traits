@@ -1,7 +1,15 @@
 [package]
 name = "oauth2_traits"
+description = "A set of primitives to be used for implementing an OAuth2 server"
 version = "0.1.0"
+
 authors = ["Louis Capitanchik <contact@louiscap.co>"]
+homepage = "https://github.com/commander-lol/rust-oauth2-traits"
+repository = "https://github.com/commander-lol/rust-oauth2-traits"
+
+license = "Apache-2.0"
+readme = "README.md"
+
 
 [dependencies]
 uuid = { version = "0.5.1", optional = true, features = ["v4"] }
