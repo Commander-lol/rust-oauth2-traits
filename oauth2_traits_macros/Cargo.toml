@@ -1,0 +1,6 @@
+[package]
+name = "oauth2_traits_macros"
+version = "0.1.0"
+authors = ["Louis Capitanchik <contact@louiscap.co>"]
+
+[dependencies]

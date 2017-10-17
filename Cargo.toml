@@ -1,0 +1,17 @@
+[package]
+name = "oauth2_traits"
+version = "0.1.0"
+authors = ["Louis Capitanchik <contact@louiscap.co>"]
+
+[dependencies]
+uuid = { version = "0.5.1", optional = true, features = ["v4"] }
+oauth2_traits_macros = { path = "oauth2_traits_macros" }
+
+[dev-dependencies]
+regex = "0.2.2"
+
+[features]
+default = ["uuid"]
+
+[workspace]
+members = ["oauth2_traits_macros"]
